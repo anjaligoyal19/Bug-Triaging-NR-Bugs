@@ -1,0 +1,172 @@
+Bug ID,Component,Severity,Priority,OS,Assignee
+91774,Bookmarks & History,normal,P3,All,mats
+167167,Bookmarks & History,normal,P3,Windows 2000,p_ch
+168411,Bookmarks & History,normal,P2,All,jminta
+168412,Bookmarks & History,normal,P3,All,p_ch
+171561,Build Config,trivial,P3,All,bugs
+172328,Menus,normal,P3,Windows 2000,p_ch
+172616,Toolbars and Customization,trivial,P3,Windows XP,hyatt
+174854,Menus,minor,P3,All,bugzilla
+175662,General,minor,P3,Linux,bugzilla
+180759,General,minor,P3,All,bugzilla
+180962,General,critical,P3,All,mconnor
+193544,Location Bar,critical,P3,All,masayuki
+204359,Location Bar,critical,P3,Linux,bryner
+214847,Toolbars and Customization,normal,P3,Mac OS X,bugs
+215707,Preferences,normal,P3,All,mconnor
+215956,General,normal,P3,Windows 2000,bugzilla
+220338,General,trivial,P3,Windows XP,bugzilla
+224002,Toolbars and Customization,normal,P2,Mac OS X,asaf
+230271,Location Bar,major,P3,All,bugs
+230787,Keyboard Navigation,normal,P3,Windows XP,aaronlev
+233712,General,normal,P1,Mac OS X,asaf
+235492,Bookmarks & History,normal,P3,Windows XP,p_ch
+245392,Installer,normal,P3,Windows XP,benjamin
+245584,Installer,blocker,P3,Windows 2000,benjamin
+249735,Keyboard Navigation,normal,P1,All,dao+bmo
+253478,Bookmarks & History,major,P1,All,vladimir+bm
+255123,Shell Integration,normal,P3,Windows 2000,bugs
+264610,Location Bar,major,P3,All,philringnalda
+265325,Build Config,normal,P1,Mac OS X,benjamin
+268553,Bookmarks & History,normal,P3,Windows XP,vladimir
+276977,General,critical,P3,All,bugzilla
+283966,General,blocker,P3,Mac OS X,chase
+287459,Bookmarks & History,minor,P3,Windows XP,amotohiko_mozillafirebird
+302000,Search,minor,P3,Windows XP,torisugari
+307840,Preferences,critical,P3,Linux,g.maone
+314386,Location Bar,minor,P3,All,zeniko
+315167,Tabbed Browser,minor,P3,Windows XP,moco
+319929,Keyboard Navigation,normal,P3,Linux,enndeakin
+321459,Installer,major,P3,Windows XP,gavin.sharp
+327115,Bookmarks & History,normal,P2,Windows XP,brettw
+334462,Disability Access,normal,P3,Linux,twanno
+336286,Bookmarks & History,normal,P3,All,mak77
+353207,Extension Compatibility,normal,P3,Windows XP,redux
+356138,Extension Compatibility,normal,P3,Windows XP,basic
+359809,Location Bar,normal,P3,All,grddev
+359924,Disability Access,critical,P3,Linux,aaronlev
+364677,RSS Discovery and Preview,normal,P3,All,philringnalda
+366572,Session Restore,normal,P3,All,zeniko
+393398,Bookmarks & History,major,P3,All,aaronlev
+411289,Theme,normal,P3,All,dao+bmo
+411774,Extension Compatibility,normal,P3,All,longfocus
+414732,Theme,trivial,P3,Mac OS X,mstange
+418079,Bookmarks & History,normal,P2,All,asaf
+420894,Bookmarks & History,normal,P3,Windows XP,graeme.mccutcheon
+428833,Bookmarks & History,major,P3,All,mak77
+429498,Location Bar,normal,P2,All,edilee
+430514,Bookmarks & History,normal,P3,All,dietrich
+446171,Bookmarks & History,normal,P3,All,scwwu
+461526,Tabbed Browser,normal,P3,All,asaf
+462222,General,normal,P3,All,dao+bmo
+466038,General,normal,P3,Windows XP,sdwilsh
+469422,Bookmarks & History,normal,P1,All,dietrich
+486857,Build Config,major,P3,AIX,shailen.n.jain
+491523,Bookmarks & History,normal,P3,All,mak77
+494373,General,normal,P2,All,dao+bmo
+504847,Tabbed Browser,normal,P3,Mac OS X,fryn
+508738,Tabbed Browser,minor,P3,All,kmaglione+bmo
+509966,Session Restore,normal,P3,All,dao+bmo
+510864,Private Browsing,normal,P3,All,ehsan
+513979,Preferences,normal,P2,Mac OS X,smichaud
+518970,Session Restore,normal,P3,All,ehsan
+521141,Installer,major,P2,Windows 7,jmathies
+521889,Session Restore,normal,P3,All,mak77
+541864,Theme,trivial,P3,Linux,dao+bmo
+571783,Theme,normal,P3,Windows 7,dao+bmo
+579095,Security,major,P3,All,alice0775
+585813,Tabbed Browser,normal,P3,All,ttaubert
+593566,Bookmarks & History,critical,P3,All,mak77
+601228,Tabbed Browser,normal,P3,All,dao+bmo
+628458,Developer Tools: Console,normal,P3,All,mihai.sucan
+633196,Developer Tools,normal,P3,Linux,mihai.sucan
+635458,Theme,normal,P3,Linux,dao+bmo
+682944,General,normal,P3,All,alice0775
+692400,Developer Tools,normal,P1,All,mihai.sucan
+694870,File Handling,normal,P3,Linux,alexhenrie24
+698371,General,normal,P2,All,jmathies
+712868,Developer Tools: Inspector,normal,P3,Windows 7,vporof
+714509,Extension Compatibility,normal,P3,Linux,cyberscorpio
+730618,Build Config,normal,P3,All,bhearsum
+736879,Developer Tools: Source Editor,normal,P3,Windows 7,anton
+738967,PDF Viewer,normal,P1,All,ydelendik
+750953,General,major,P3,All,justin.lebar+bug
+751739,Developer Tools: Scratchpad,normal,P3,All,anton
+758857,Search,normal,P3,All,a9016009
+762608,Developer Tools: Console,normal,P3,Mac OS X,mihai.sucan
+793138,Developer Tools: Inspector,normal,P3,All,mratcliffe
+806046,General,normal,P3,Windows XP,adw
+824021,Session Restore,normal,P3,All,ttaubert
+828780,Private Browsing,normal,P3,Mac OS X,ehsan
+829360,Private Browsing,normal,P3,Mac OS X,josh
+842290,Private Browsing,normal,P3,Windows 7,josh
+845752,Developer Tools,normal,P3,Windows 7,scrapmachines
+853415,Tabbed Browser,normal,P3,Mac OS X,gijskruitbosch+bugs
+855811,Developer Tools: Debugger,normal,P3,Mac OS X,vporof
+866928,Toolbars and Customization,normal,P3,All,mdeboer
+867992,Developer Tools: Console,normal,P3,Windows 8,mihai.sucan
+874819,Toolbars and Customization,normal,P3,Windows 7,gijskruitbosch+bugs
+888967,Preferences,normal,P3,All,mrbkap
+897163,Preferences,normal,P3,Linux,ehsan
+901930,Developer Tools: Debugger,normal,P2,Windows 7,past
+921850,Developer Tools: WebIDE,normal,P1,Mac OS X,poirot.alex
+923940,Developer Tools: Graphic Commandline and Toolbar,normal,P3,All,gabrielfrancosouza
+924914,General,normal,P2,Windows 8.1,msamuel
+927449,Developer Tools: WebIDE,normal,P1,All,iseki.m.aa
+930094,Toolbars and Customization,normal,P3,Mac OS X,mconley
+930685,Developer Tools: Debugger,normal,P3,All,mihai.sucan
+941226,Toolbars and Customization,normal,P3,Windows 8.1,gijskruitbosch+bugs
+945739,Toolbars and Customization,normal,P3,All,gijskruitbosch+bugs
+946450,New Tab Page,normal,P1,All,evilpies
+947569,Developer Tools: Netmonitor,normal,P3,Mac OS X,vporof
+948884,General,normal,P3,All,linpyong
+961535,Toolbars and Customization,normal,P3,Windows 7,gijskruitbosch+bugs
+963358,Tabbed Browser,normal,P3,All,mconley
+964244,Toolbars and Customization,normal,P3,All,jaws
+966342,Sync,normal,P3,All,gavin.sharp
+968439,Sync,normal,P1,Mac OS X,markh
+970013,Bookmarks & History,normal,P3,Windows 8,gijskruitbosch+bugs
+971948,Theme,normal,P3,All,jaws
+972822,Toolbars and Customization,normal,P3,Linux,gijskruitbosch+bugs
+979571,Developer Tools: Debugger,normal,P3,Mac OS X,jjurovych
+980534,Toolbars and Customization,normal,P3,Windows 8.1,gijskruitbosch+bugs
+983768,Toolbars and Customization,trivial,P3,All,mdeboer
+983828,Theme,normal,P3,All,mixedpuppy
+985423,Developer Tools,normal,P3,All,past
+992275,Developer Tools: Debugger,normal,P3,Linux,jlong
+993402,Preferences,normal,P3,Linux,richard.marti
+1001821,Developer Tools: Inspector,normal,P3,All,sjakthol
+1007425,Developer Tools: Console,normal,P3,Linux,gbrown
+1007978,Extension Compatibility,normal,P3,All,mconley
+1029459,Developer Tools: Inspector,normal,P3,All,ttromey
+1056438,Session Restore,critical,P3,Windows 7,mconley
+1080055,Tabbed Browser,normal,P3,Linux,dtownsend
+1083140,Developer Tools: WebIDE,normal,P3,Linux,jmaher
+1095236,General,normal,P3,All,mconley
+1104054,Device Permissions,normal,P3,All,florian
+1107969,Session Restore,normal,P3,Linux,mdeboer
+1108302,Preferences,normal,P1,Mac OS X,jaws
+1114299,General,normal,P3,All,mconley
+1118974,Developer Tools: WebIDE,normal,P3,Linux,jryans
+1130411,Preferences,normal,P3,Windows 8.1,gijskruitbosch+bugs
+1133569,General,normal,P3,Mac OS X,enndeakin
+1135508,Preferences,normal,P3,All,gioyik
+1148086,Developer Tools: Style Editor,normal,P3,All,sjakthol
+1163024,Developer Tools: Netmonitor,normal,P3,All,past
+1163212,Developer Tools: Debugger,normal,P3,Windows 8,matt.woodrow
+1164569,Security,normal,P3,Windows 10,pollti
+1166013,General,normal,P5,Linux,mrbkap
+1177324,Developer Tools: Console,normal,P3,All,nchevobbe
+1179395,General,major,P2,Windows 10,gijskruitbosch+bugs
+1179542,Menus,normal,P3,All,michael
+1186732,Extension Compatibility,normal,P3,All,bobbyholley
+1246522,Developer Tools: Inspector,normal,P3,All,jryans
+1250980,Search,normal,P3,All,mak77
+1253227,Bookmarks & History,normal,P3,All,ayx002
+1268738,Developer Tools: Inspector,normal,P2,All,moz-ian
+1269462,Toolbars and Customization,normal,P3,Mac OS X,gijskruitbosch+bugs
+1283329,Location Bar,normal,P1,Linux,mak77
+1283909,General,normal,P3,Windows 10,kbroida
+1287292,Untriaged,critical,P3,All,erahm
+1327691,Developer Tools: CSS Rules Inspector,normal,P3,All,3ugzilla
+1328737,Sync,normal,P1,All,tchiovoloni

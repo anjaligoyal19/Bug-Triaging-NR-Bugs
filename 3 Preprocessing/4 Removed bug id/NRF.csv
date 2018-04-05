@@ -1,0 +1,172 @@
+Component,Severity,Priority,OS,Assignee
+Bookmarks & History,normal,P3,All,mats
+Bookmarks & History,normal,P3,Windows 2000,p_ch
+Bookmarks & History,normal,P2,All,jminta
+Bookmarks & History,normal,P3,All,p_ch
+Build Config,trivial,P3,All,bugs
+Menus,normal,P3,Windows 2000,p_ch
+Toolbars and Customization,trivial,P3,Windows XP,hyatt
+Menus,minor,P3,All,bugzilla
+General,minor,P3,Linux,bugzilla
+General,minor,P3,All,bugzilla
+General,critical,P3,All,mconnor
+Location Bar,critical,P3,All,masayuki
+Location Bar,critical,P3,Linux,bryner
+Toolbars and Customization,normal,P3,Mac OS X,bugs
+Preferences,normal,P3,All,mconnor
+General,normal,P3,Windows 2000,bugzilla
+General,trivial,P3,Windows XP,bugzilla
+Toolbars and Customization,normal,P2,Mac OS X,asaf
+Location Bar,major,P3,All,bugs
+Keyboard Navigation,normal,P3,Windows XP,aaronlev
+General,normal,P1,Mac OS X,asaf
+Bookmarks & History,normal,P3,Windows XP,p_ch
+Installer,normal,P3,Windows XP,benjamin
+Installer,blocker,P3,Windows 2000,benjamin
+Keyboard Navigation,normal,P1,All,dao+bmo
+Bookmarks & History,major,P1,All,vladimir+bm
+Shell Integration,normal,P3,Windows 2000,bugs
+Location Bar,major,P3,All,philringnalda
+Build Config,normal,P1,Mac OS X,benjamin
+Bookmarks & History,normal,P3,Windows XP,vladimir
+General,critical,P3,All,bugzilla
+General,blocker,P3,Mac OS X,chase
+Bookmarks & History,minor,P3,Windows XP,amotohiko_mozillafirebird
+Search,minor,P3,Windows XP,torisugari
+Preferences,critical,P3,Linux,g.maone
+Location Bar,minor,P3,All,zeniko
+Tabbed Browser,minor,P3,Windows XP,moco
+Keyboard Navigation,normal,P3,Linux,enndeakin
+Installer,major,P3,Windows XP,gavin.sharp
+Bookmarks & History,normal,P2,Windows XP,brettw
+Disability Access,normal,P3,Linux,twanno
+Bookmarks & History,normal,P3,All,mak77
+Extension Compatibility,normal,P3,Windows XP,redux
+Extension Compatibility,normal,P3,Windows XP,basic
+Location Bar,normal,P3,All,grddev
+Disability Access,critical,P3,Linux,aaronlev
+RSS Discovery and Preview,normal,P3,All,philringnalda
+Session Restore,normal,P3,All,zeniko
+Bookmarks & History,major,P3,All,aaronlev
+Theme,normal,P3,All,dao+bmo
+Extension Compatibility,normal,P3,All,longfocus
+Theme,trivial,P3,Mac OS X,mstange
+Bookmarks & History,normal,P2,All,asaf
+Bookmarks & History,normal,P3,Windows XP,graeme.mccutcheon
+Bookmarks & History,major,P3,All,mak77
+Location Bar,normal,P2,All,edilee
+Bookmarks & History,normal,P3,All,dietrich
+Bookmarks & History,normal,P3,All,scwwu
+Tabbed Browser,normal,P3,All,asaf
+General,normal,P3,All,dao+bmo
+General,normal,P3,Windows XP,sdwilsh
+Bookmarks & History,normal,P1,All,dietrich
+Build Config,major,P3,AIX,shailen.n.jain
+Bookmarks & History,normal,P3,All,mak77
+General,normal,P2,All,dao+bmo
+Tabbed Browser,normal,P3,Mac OS X,fryn
+Tabbed Browser,minor,P3,All,kmaglione+bmo
+Session Restore,normal,P3,All,dao+bmo
+Private Browsing,normal,P3,All,ehsan
+Preferences,normal,P2,Mac OS X,smichaud
+Session Restore,normal,P3,All,ehsan
+Installer,major,P2,Windows 7,jmathies
+Session Restore,normal,P3,All,mak77
+Theme,trivial,P3,Linux,dao+bmo
+Theme,normal,P3,Windows 7,dao+bmo
+Security,major,P3,All,alice0775
+Tabbed Browser,normal,P3,All,ttaubert
+Bookmarks & History,critical,P3,All,mak77
+Tabbed Browser,normal,P3,All,dao+bmo
+Developer Tools: Console,normal,P3,All,mihai.sucan
+Developer Tools,normal,P3,Linux,mihai.sucan
+Theme,normal,P3,Linux,dao+bmo
+General,normal,P3,All,alice0775
+Developer Tools,normal,P1,All,mihai.sucan
+File Handling,normal,P3,Linux,alexhenrie24
+General,normal,P2,All,jmathies
+Developer Tools: Inspector,normal,P3,Windows 7,vporof
+Extension Compatibility,normal,P3,Linux,cyberscorpio
+Build Config,normal,P3,All,bhearsum
+Developer Tools: Source Editor,normal,P3,Windows 7,anton
+PDF Viewer,normal,P1,All,ydelendik
+General,major,P3,All,justin.lebar+bug
+Developer Tools: Scratchpad,normal,P3,All,anton
+Search,normal,P3,All,a9016009
+Developer Tools: Console,normal,P3,Mac OS X,mihai.sucan
+Developer Tools: Inspector,normal,P3,All,mratcliffe
+General,normal,P3,Windows XP,adw
+Session Restore,normal,P3,All,ttaubert
+Private Browsing,normal,P3,Mac OS X,ehsan
+Private Browsing,normal,P3,Mac OS X,josh
+Private Browsing,normal,P3,Windows 7,josh
+Developer Tools,normal,P3,Windows 7,scrapmachines
+Tabbed Browser,normal,P3,Mac OS X,gijskruitbosch+bugs
+Developer Tools: Debugger,normal,P3,Mac OS X,vporof
+Toolbars and Customization,normal,P3,All,mdeboer
+Developer Tools: Console,normal,P3,Windows 8,mihai.sucan
+Toolbars and Customization,normal,P3,Windows 7,gijskruitbosch+bugs
+Preferences,normal,P3,All,mrbkap
+Preferences,normal,P3,Linux,ehsan
+Developer Tools: Debugger,normal,P2,Windows 7,past
+Developer Tools: WebIDE,normal,P1,Mac OS X,poirot.alex
+Developer Tools: Graphic Commandline and Toolbar,normal,P3,All,gabrielfrancosouza
+General,normal,P2,Windows 8.1,msamuel
+Developer Tools: WebIDE,normal,P1,All,iseki.m.aa
+Toolbars and Customization,normal,P3,Mac OS X,mconley
+Developer Tools: Debugger,normal,P3,All,mihai.sucan
+Toolbars and Customization,normal,P3,Windows 8.1,gijskruitbosch+bugs
+Toolbars and Customization,normal,P3,All,gijskruitbosch+bugs
+New Tab Page,normal,P1,All,evilpies
+Developer Tools: Netmonitor,normal,P3,Mac OS X,vporof
+General,normal,P3,All,linpyong
+Toolbars and Customization,normal,P3,Windows 7,gijskruitbosch+bugs
+Tabbed Browser,normal,P3,All,mconley
+Toolbars and Customization,normal,P3,All,jaws
+Sync,normal,P3,All,gavin.sharp
+Sync,normal,P1,Mac OS X,markh
+Bookmarks & History,normal,P3,Windows 8,gijskruitbosch+bugs
+Theme,normal,P3,All,jaws
+Toolbars and Customization,normal,P3,Linux,gijskruitbosch+bugs
+Developer Tools: Debugger,normal,P3,Mac OS X,jjurovych
+Toolbars and Customization,normal,P3,Windows 8.1,gijskruitbosch+bugs
+Toolbars and Customization,trivial,P3,All,mdeboer
+Theme,normal,P3,All,mixedpuppy
+Developer Tools,normal,P3,All,past
+Developer Tools: Debugger,normal,P3,Linux,jlong
+Preferences,normal,P3,Linux,richard.marti
+Developer Tools: Inspector,normal,P3,All,sjakthol
+Developer Tools: Console,normal,P3,Linux,gbrown
+Extension Compatibility,normal,P3,All,mconley
+Developer Tools: Inspector,normal,P3,All,ttromey
+Session Restore,critical,P3,Windows 7,mconley
+Tabbed Browser,normal,P3,Linux,dtownsend
+Developer Tools: WebIDE,normal,P3,Linux,jmaher
+General,normal,P3,All,mconley
+Device Permissions,normal,P3,All,florian
+Session Restore,normal,P3,Linux,mdeboer
+Preferences,normal,P1,Mac OS X,jaws
+General,normal,P3,All,mconley
+Developer Tools: WebIDE,normal,P3,Linux,jryans
+Preferences,normal,P3,Windows 8.1,gijskruitbosch+bugs
+General,normal,P3,Mac OS X,enndeakin
+Preferences,normal,P3,All,gioyik
+Developer Tools: Style Editor,normal,P3,All,sjakthol
+Developer Tools: Netmonitor,normal,P3,All,past
+Developer Tools: Debugger,normal,P3,Windows 8,matt.woodrow
+Security,normal,P3,Windows 10,pollti
+General,normal,P5,Linux,mrbkap
+Developer Tools: Console,normal,P3,All,nchevobbe
+General,major,P2,Windows 10,gijskruitbosch+bugs
+Menus,normal,P3,All,michael
+Extension Compatibility,normal,P3,All,bobbyholley
+Developer Tools: Inspector,normal,P3,All,jryans
+Search,normal,P3,All,mak77
+Bookmarks & History,normal,P3,All,ayx002
+Developer Tools: Inspector,normal,P2,All,moz-ian
+Toolbars and Customization,normal,P3,Mac OS X,gijskruitbosch+bugs
+Location Bar,normal,P1,Linux,mak77
+General,normal,P3,Windows 10,kbroida
+Untriaged,critical,P3,All,erahm
+Developer Tools: CSS Rules Inspector,normal,P3,All,3ugzilla
+Sync,normal,P1,All,tchiovoloni

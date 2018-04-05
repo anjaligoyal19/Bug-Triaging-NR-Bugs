@@ -1,0 +1,181 @@
+@relation NRF
+
+@attribute Component {'Build Config','Shell Integration',General,'Bookmarks & History',Migration,'Tabbed Browser',Preferences,'Location Bar','File Handling','Disability Access',Search,'Page Info Window',Installer,Security,'Toolbars and Customization',Menus,'Keyboard Navigation','RSS Discovery and Preview',Theme,'Private Browsing','Session Restore','Developer Tools','Developer Tools: Console','Developer Tools: Inspector',Distributions,'Developer Tools: Source Editor','Developer Tools: Style Editor','Extension Compatibility','Developer Tools: Debugger','PDF Viewer',SocialAPI,'Developer Tools: Graphic Commandline and Toolbar','Developer Tools: Responsive Design Mode','Downloads Panel','Developer Tools: Performance Tools (Profiler/Timeline)','Developer Tools: Scratchpad','Developer Tools: WebIDE',Untriaged,'Developer Tools: Framework',Translation,Sync,'New Tab Page',Pocket,'Developer Tools: Storage Inspector','Developer Tools: Memory','Developer Tools: about:debugging','Developer Tools: Shared Components','Activity Streams: General',Tours,'Developer Tools: Netmonitor','Site Identity and Permission Panels','SocialAPI: Providers','Device Permissions','Developer Tools: Measuring Tool','Developer Tools: JSON Viewer','Developer Tools: DOM','Developer Tools: CSS Rules Inspector','Developer Tools: Animation Inspector','Developer Tools: Computed Styles Inspector','Developer Tools: WebGL Shader Editor','Tracking Protection','Developer Tools: Web Audio Editor',Headless,'Activity Streams: Newtab','Developer Tools: Canvas Debugger','Developer Tools: Object Inspector','Screen Sharing Whitelist','Developer Tools: Font Inspector','Activity Streams: Timeline','Activity Streams: Server Operations','Activity Streams: Application Servers'}
+@attribute Severity {critical,normal,major,minor,trivial,blocker}
+@attribute Priority {P3,P2,P4,P1,P5}
+@attribute OS {HP-UX,FreeBSD,'Windows 2000',Linux,'Mac OS X',All,'Windows XP',Solaris,'Windows Server 2003','Windows 98',Other,'Windows 95','Windows NT','Windows ME',SunOS,OSF/1,OpenBSD,NetBSD,OS/2,Windows,BeOS,'Windows Vista',Neutrino,'Windows 7','Windows CE','Windows 8','Windows 8.1','Windows 10','iOS 10',OpenSolaris,'Gonk (Firefox OS)',Android,AIX,IRIX,Maemo}
+@attribute Assignee {bryner,bugzilla,p_ch,bugs,axelssonaf,general,chase,location-bar,vladimir+bm,aaronlev,doronr,printing,mscott,english-us,dveditz,jag-mozilla,hyatt,hewitt,roland.mainz,chris,mconnor,kerz,honzab.moz,rogerio.rag,steffen.wilberg,kevin,jstenback+bmo,vladimir,shorlander,benjamin,iann_bugzilla,dbaron,pranavp1616,build,timecop,gavin.sharp,jwalden+fxhelp,jwalden+bmo,robert.strong.bugs,darin.moz,wtc,bill.haneman,rebron,asaf,ehsan,Louie.Zhao,u88484,jaas,pilgrim,mbeltzner,martijn.martijn,asa,Niels.Reedijk,brettw,sayrer,l10n,philip.puryear,m_kato,annie.sullivan,mozilla,jaymoz,ginnchen+exoracle,m-wada,pamg.bugs,rflint,jminta,moco,pkasting,zeniko,azakai,jgoldman,jmathies,philringnalda,toad,dao+bmo,dietrich,nian.liu,edilee,mark.finkle,jeresig,christineyen+bugs,mak77,myk,florian,dwitte,dtownsend,caillon,mfeil,sziadeh,bent.mozilla,taken.spc,cab,ondrej,kaie,arpad.borsos,ted,tellrob,xfsunoles,wladow,dbolter,jhford,doug.turner,tdowner,paul,highmind63,jezreel,adw,faaborg,mstange,stas,wesongathedeveloper,zfang,dolske,mihai.sucan,mratcliffe,jwalker,jaws,margaret.leibovic,rcampbell,cedricv,kairo,pwalton,wmccloskey,anant,mounir,evan,wgianopoulos,cam,raymond,wuno,sonny.piers,felipc,mwu.code,evold,felix.the.cheshire.cat,chrismore.bugzilla,dcamp,netzen,matjk7,vladan.bugzilla,u467816,fayearthur,ttaubert,andres,abhishekp.bugzilla,vporof,ejpbruel,me,limweizhong,leonard.camacho,timabraldes,bdahl,b56girard,bellindira,dangoor,jon.rietveld,mixedpuppy,past,mh+mozilla,hubert.sablonniere,fracture91,swex,thaddee.tyl,markh,tyronekc,jimb,saneyuki.s.snyk,marioalv.mozilla,fb+mozdev,alfredkayser,anton,dteller,jboriss,dkeeler,josh,bbenvie,cpeterson,waterlo1,ben,jorge,gijskruitbosch+bugs,mdeboer,mrbkap,mconley,josiah,philipp,MattN+bmo,mmc.bugzilla,rjacob,poirot.alex,amuntner,jryans,blair,scrapmachines,nfitzgerald,qnhade,alex_mayorga,pbrosset,linpyong,mchang,manishearth,smichaud,vtsatskin,jyeh,smacleod,yarik.sheptykin,standard8,bbell,paolo.mozmail,athirasnamby,usarracini,gps,moz.mihaelav,jfong,janx,tchiovoloni,a.m.naaktgeboren,madhava,tkolodziejski,dburns,mgoodwin,gkrizsanits,wmaggs,richard.marti,johan.charlez,enndeakin,rFobic,manrajsinghgrover,lviknesh,indiasuny000,ryanvm,jordan,kvijayan,mjaritz,pdehaan,bwinton,mzhilyaev,glind,msamuel,mbrubeck,mcaceres,mhowell,fayolle-florent,reuben.bmo,gw,agrigas,zack.carter,jonathan,arthuredelstein,kit,stomlinson,ahalberstadt,jlong,catlee,huseby,bgrinstead,amarchesini,tihuang,lclark,oyiptong,rfeeley,jdescottes,horatiulazu,eoger,jsnajdr,jlaster,bmanojkumar24,jhofmann,rrosario,bkelly,aryx.bugmail,wiwang,jkt,jaideepb,mkelly,gasolin,nchevobbe,rchien,3ugzilla,jkerim,johannes,ttromey,khudson,tigleym,gandalf,mozilla-bugs,db48x,sumit4iit,fantasai.bugs,scwwu,g.maone,trunga0,allamsetty.anup,ventnor.bugzilla,mgueury,richwklein,wagle,frnchfrgg,kliu,Techrazy.Yang,trev.moz,karlt,taras.mozilla,joelr,mcastelluccio,masa141421356,jgilbert,mhoye,mars.martian+bugmail,mathnerd314...gph+mozilla,milan,jmuizelaar,tymerkaev,jhugman,christian,dhanvicse,nikhiljohny,spenades,acelists,abhishekbh,bugzillamozillaorg_serge_20140323,anrvrx,souravgarg833,gphemsley,pjasicek,ehung,florianl,nssreedevipillai,bogdan.maris,abhirav.kariya,geoffroy,unusualtears,abhinav.koppula,sjw,bas,ajvincent,administration,jmaher,jruderman,probaner23,saelynn.yi,bluesea,Rakhish1994,davidp99,barret,ayushmishra.iit,tabmix.onemen,alex.bardas,mv.nsaad,alex,bobowencode,farhaan.bukhsh,aaron,zer0,bram,yzenevich,blassey.bugs,be.chabod,wpan,dcritchley,matej,tomer.moz.bugs,odvarko,kshitijakarkar,mzehe,nhnt11,dwivedi.aman96,ayush.original,kestrel,moz-ian,prathikshaprasadsuman,sumi29,nohamelin,georgeveneeldogga,peterv,ankita_tanwar,sescalante,kmaglione+bmo,schung,pavankarthikboddeda,adavis,prasanthmani2010,choller,dothayer,hossainalikram,lists,ny.nathan.yee,pdherbemont,nkhanna,activeknowledgedev,jhobin,teramako,sykopomp,jfkthame,baum_j,jbeatty,n.nethercote,landy.simpson,parkcra,ettseng,beatriz.rizental,rhelmer,fliu,wselman,athornburgh,thedavidhinojosa,saranandyashu,julian.viereck,smontagu,gvescu,dirkjan,leszekz,vkatsikaros,vkarande,dex,emanuela,jld,lenikmutungi,ati.szucs,guohao.yan,dcasorran,nnn_bikiu0707,bhsu,bwong,beachjar,dvander,allstars.chh,hholmes,jhorak,aditya.bharti,glaubitz,locke12456,valentin.gosu,kdubost,djmdeveloper060796,ksteuber,stefan.georgiev,bmao,mverdi,gtatum,matthieu.rigolot,urbankrajnc92,dnarcese,gl,ntim.bugs,ewright,aruna.maurya12,timdream,francois,dharvey,bugzillaabuse,samir_bugzilla,jvarga,pete,adamlock,mkmelin+mozilla,jshin1987,durbacher,nhottanscp,sdagley,blizzard,stayopenmenu,ilya.konstantinov+future,eagle.lu,mterlo1,ddurst,bsmedberg,doug,ispence,jduell.mcbugs,Squally425,nick.kreeger,erwan,klaas1988,chris.bugzilla,alchen,asac,jeremyhu,kcarchana77,graydon,murali.nandigama,dsicore,brandon,amchung,glennrp+bmo,linux.anas,juca,developer,mozaakash,julian.reschke,hippopotamus.gong,fabrice,markos.silvano,john,m+bugzilla,kartiksomani,pablo_lm1,avihpit,rob,albert.calzaretto,dcrewi,jimmyw22,maierman,siddu244,sankha93,alagenchev,lemcgregor3,fbraun,migueluseche,brnet00,b4bomsy,jcrawford,npang,lgreco,bernardo,ydelendik,jjurovych,jterry,sheldon.roddick,jorendorff,mochen,dev,grisha,sguha,sjakthol,jmoradi,hikezoe,avikpal.me,hsteen,bwerth,eitan,tspurway,kev,abay.jashibekov,mpopp,deepesh910,joeseed86,merwin,fatseng,rexboy,kevchan85,gsvelto,kevinhowjones,enes.goktas,vlad,xidorn+moz,sebastianzartner,michael,cbkprice,lochang,ywu,dstrohmeier,lockhart,ragnis,ckerschb,btang,stephouillon,dorelbarbu96,i.milind.luthra,brsun,tom,brennan.brisad,continuation,brandon.cheng,sledru,squibblyflabbetydoo,sy.fen0,pdahiya,dakatsuka,gkruglov,jiangperry,ritwikabhishek,mikeparkms,hkirschner,ronoueb,yulia.startsev,andrei.br92,mstriemer,alexandru.simonca,dd.mozilla,amlee,sfoster,jsavory,oriol-bugzilla,bzbarsky,sdwilsh,hsivonen,BoxerBoi76,noririty,rjkeller,alexey,david,dave532,seairth,patrick,mpgritti,sspitzer,tonglebeak,yuanyi21,tmeader,roc,bernard.alleysson,gerv,jcginn,granrosebugs,torisugari,masayuki,son.le0,ajschult,linxspider,parente,mark,cbiesinger,coop,ispiked,ayakawa.m,tuukka.tolvanen,changdong.cui,toadking,stevewon,thunder,john+bugzilla,john.p.baker,nthomas,cmtalbert,asqueella,mozpreed,fittysix,dmose,cedric.corazza,hwaara,ronny.perinke,reed,jonas,sylvain.pasche,mredivo,mic,arno,michael.monreal+moz,mcdavis941.bugs,chofmann,legege,tbertels+bugzilla,pascalc,toddsf,dev-null,sevenfurnace,alice0775,jdarmochwal,william.jon.mccann,gabri.best,neil,michal.novotny,mattc65,limi,getify,sinduja_psg,azaaza,morac99-firefox2,stefanh,synodinos,mdibaiee,kennyheaton,chstath,mshal,livathinos.spyros,jon,enzomatrix,ewong,shu,alex.lakatos.qa,prp.1111,murali.sr92,matthewjwein,chrislord.net,markcapella,lie.r.min.g,jgriffin,beberveiga,mike,dschubert,code,ksk.3393,ravicat2013,anthony,seerriss,jlmendezbonini,zmgmoz,VYV03354,jonas.jenwald,miket,mitchfriedman5,ioana_damy,cpaul37,thomas,raphael,ticaiolima,mchiang,brian_satchwannabe,sumedhhere,geoff,jst,syshagarwal,alexshoronov,avinash,jacksonisaac2008,agraham19,jonathan.wilfredo.fuentes,brian,irtmail-bugzilla,dj,chiragbhatia2006,Sahilc.2200,bendecoste,athena,rtnpro,mmaslaney,i,rpmdisguise-nave,mozbugs,henri,koepked,rahid.robin,schien,luckyk1592,alexey.novak.mail,obara.justin,brion,karlden,euler90h,tnikkel,anjalymehla51,hugo.arregui,ricard.robin,veeti.paananen,piyushwaradpande,julian.descottes,adrian.aichner,ckarlof,jamie,moz.dmitry,mrinal.dhar,wbamberg,atifrea,akshendra521994,gormanchi,ralin,evilpies,nikhil.handa19,browtayl,glenn28f,yashmehrotra95,gfritzsche,wafflespeanut,eric,pbooth,15electronicmotor,colmeiro,glob,bobm,jeremyjpf,hellemar,a.ahmed1026,technozoom88,edwin.bugs,jdinartejesus,mobyvb,ellee,alessarik,kbroida,nounoursheureux,sphink,mreavy,splewako,riadh.chtara,cmassim,rlb,cpearce,olasupov,sakshivaid95,moaaz.omer,sveta.orlik.code,lefrancjoaquim,tanvi,selee,jsavage,dalimilhajek,benguiratoussama1998,fabien,leospostbox,aswan,ma.steiman,sebastinssanty,abhishekgarg119,sfranks,keremkat,bzhao,esteban.escandell,kurtcarpenter,kumar.mcmillan,clarkbw,chutten,bugmail,gbrown,azhang,thomas.draebing,nical.bugzilla,philip.chee,ruturaj,motoryo1,winter2718,dwalsh,steve.j.melia,ale.comp_06,ab506032,wellington,katharina.utecht,acautin,helfi92,julia.friesel,katika2987,amitforfriends_dns,amod.narvekar,spohl.mozilla.bugs,ryo_kato,alessio.placitelli,lchang,patrickkerry.pei,dholbert,rhankins,chrisdfrey,manchanda.sagar1996,danhuang1202,isegall,weyland,sajarvis,arai.unmht,mgsudhanva,pushpankark,u579587,echuang,xfq.free,divyanshu.divix,vladzuga,jshubheksha,chirag.student,mail2seven,udayanbaidya,saheda.antora,amckay,dzeber,vi.le,bob.silverberg,vedantsareen,ayx002,francesco.lodolo,andrebargull,catdesk,amarok,iulian.radu67,tfeserver,andre,oliver.scheiwiller,wkocher,kpennington,pass2pawan,y.gravrand,dbugs,leftysolara,mail,rahulch95,aniruddhavivekpatil,kenweilee,andrewxia2,schwartzmorn+bugzilla,kmckinley,isaacschemm,mayanksri18,tim.pan,gohikearock,bharatraghunthan9767,kausam2015,kevin.kwong.chip,manotejmeka,ahsan.r.kazmi,tiago.paez11,mats,leonardo.couto,vera.sipicki,giorgos,josh.pinkney,ganesh2583,kurshakovakristina,meghanagupta3,swapneshks,cmanchester,jujjyl,powell.759,kechang,nicolaso,epang,ruben.schmidmeister,abenson,hemantsingh1612,mheubusch,tnguyen,dlee,gabrielle.singhcadieux,nbeltran14,mcooper,thsieh,shashwat.jolly,udara.weera,jeongkyu.kim,cfu,ananuti,lyret,rdalal,shilpi,dev+mozbugzilla,myaseen.khan,fitojb,najiang,hanbin.chang,jhenry,robert,jhpedemonte,smrank,rOmAz,quark29,bart,leon.sha,kherron+mozilla,csthomas,jason.barnabe,bastiaan,romain,hskupin,gsshih,axel,pythonesque+bugzilla,marria,mahowi,beng,mook.moz+mozbz,regis.caspar+bz,awuest,pablo,joelnackman,hidenosuke,sciguyryan,pcvrcek,rnewman,pardal,twanno,tjduavis.opensource,surkov.alexander,matt,jason,timeless,david.humphrey,suryaseetharaman.9,wagner.sim88,bugspam.Callek,prakharguptaiitd,lusian,marcoos+bmo,dshigabz,l0p3s222,cers,seif,jorgk,babhishek21,nfroyd,hsoft,hiraysushant,arnaud.bienner,cbutcher,dustin,waldion,dhenein,rmkoesters,manan.doshi96,althaf.mozilla,526avijit,bbirtles,reyes.christopher,k-mimura,mchenryc,axitkhurana,kapeels42,dean_tessman,Stefan.Borggraefe,djst,paxunix,ccarlen,blackconnect,bob,tor,ali,brade,kbrosnan,mvl,danm.moz,unghost,mikeclackler,p.franc,garyvdm,bugzilla.fr,opi,Martijn.Ras,moz_en-gb,timar74,catch22,shaohua.wen,kscanne,annevk,cbeard,alastair,mike.kaplinskiy,markus.magnuson,fryn,sergei_d,yonigilad,hendrik,jonathan_haas,longsonr,steven,samuel.sidler+old,igor,spanish,tony,alqahira,johnjbarton,ray,w.woods,cbook,mozcbarrett,mattwillis,jasone,leftturnsolutions,u217243,ben.bucksch,bobbyholley,vicky.sun,mozilla+ben,tom.dyas,suso.baleato,cork,jbecerra,mz,erkan,shaver,shailen.n.jain,legion,cjones.bugs,greg.mosher,emorley,jono,sindrebugzilla,tobbi.bugs,debloper,geeknik,Ms2ger,lorchard,c.ascheberg,sid.bugzilla,LoN_Kamikaze,f.kayser,ludovic,anygregor,liuche,landry,themilossh,wclouser,theo,vandhanaa91,pookveeraya,saurabhanandiit,lmanuelab,armenzg,akeybl,graeme.mccutcheon,khuey,justin.lebar+bug,anthony.s.hughes,jacek,jwilde,owen,xabolcs,yosy101,aria,cykesiopka.bmo,aklotz,bajaj.bhavana,katiemthom,georgiana.chelu93,jwatt,rail,sunu0000,abillings,afshin.meh,desiradaniel2007,greenm9,nb.mozd,sjhworkman,dmajor,hwine,bernd.loeber+mozbugzilla,aleh.zasypkin,hkaimenas,yfdyh000,birunthan,trishul.goel,georgios.kontaxis,viv1fi,seleznev.ru,sudheesh1995,andrei,elancaster,bruteforks,anirudh.gp,nsm.nikhil,chaitanya7991,twalker,ankit.goyal90,tejdeepg,averstak,vikramcse.10,seth.bugzilla,shreyaslakhe,hammerly.matt,alexxander.dimitrov,gioyik,abhilashmhaisne,zmiller12,jbuckley,franziskuskiefer,federico_padua,vijendrasingh161,mliang,dvedvick,baptiste.em,canaltinova,rosslovas,isangelawu,nwokop,dmu,chirath.02,hanue,jyavenard,malayaleecoder,kgilbert,jdarcangelo,schalk.neethling.bugs,bhearsum,erahm,apehrson,bchien,rajesh.kathiriya507,jdemooij,aki,jhirsch,mboros04,david.herman,dchanm+bugzilla,pivanov,adeubank,mamacdon,jincreator,william,nick,aljullu,kevin+bugzilla,k,alexandre-cote,alexharris6,jseward,chrishood,anush,sd001dev,terrence.d.cole,sr71pav,nanonikhil,lissyx+mozillians,tparker12,miahzmiahz+bmo,stdowa+bugzilla,takeshi2,moz_bug_r_a4,gidsgoldberg,bugzilla-mozilla-20000923,mglenn,dasledz.bugs,at.light,owenjonesuk,tabutils+bugzilla,akshat.kedia,fhd,darshanapadmadas,esajic,soumyakanti.chakraborty,cpt.at.work,GiTcode,jkitch.bug,lewis.cowper,davezatch,scaraveo,sang.mercado,rvitillo,vallensd,marc.bizal,pduguet33,swapnil.rp15,jtungul53,mazzone_496,n0dalus+firefox,lukasnordin11,bugzilla.mozilla.org-3,bugzilla-mozilla,yuki,jmorkel,lenniger,premangvikani,mmcnicklebugs,Martin.vGagern,ian,Ken,pallanikumaran,d-kalck,areinald.bug,ojab,mjh563,iforgot120,abka.fa,spkr322,shashank,sssarvjeet27,johnkang.h,alwu,u562192,subhdeepsaha,hrishikeshbman,lie.1296,ami.bugzilla,jimmac,XerBlade,wjohnston2000,yehudab,parasyte,sidrabbit,charles.wh.chan,tru3cougar,soapyhamhocks,dan,jasonyeo88,mrshux,dulanja33,fx4waldi,jbeich,aditya.91.singh,rn10950,jmaccor1012,simonas+bugzilla.mozilla.org,himanshusingh.singh06,lubin.davidg,sparshpaliwal123,tvaleev,jlaiosd,miles,amila.efac,foolkingcrown,chowdhuryshaif,kalpeshk2011,batmanav10,harshitbansal2015,wlachance,hotshot2797,deepsrijit1105,sauravsachidanand,singh.amola,holyspirit,jj.enser,thesuckiestemail,pkwarren,german,vberon,win32,cls,jklippel,evan.yan,niederstrasser,gaomingcn,chpe,alfred.peng,tfullhart,ahaas,fta+bugzilla,roytam,anodelman,jigneshhk1992,k0scist,cory.gack,respindola,briangrinstead,berker.peksag,brijesh3105,t.matsuu,andy,matt.woodrow,jeremie.patonnier,andreldm1989,hub,shlomif,jfengler4,jan,bokeefe,vorce67,tonnes.mb,dev.nibo,heldtray,alexbio2008,sergiu,lukasblakk+bugs,n.parmar085,mozillabugs,diogopontual,mihneadb,maschang85,felixc,david+bugzilla,wnayes,cmills,jcoppeard,tareqakhandaker,jacob.jh.clark,agentmirv,boopathi,railscard,lancelot,sterlingrgraham,aakash,ali_movahedi,singh.kushagra93,dagger.bugzilla,eveenstra26,bmax1337,mikeperry,jj,21,kemenaran,sayan.chowdhury2012,imnmfotmal,mrspeaker,artistskanta,daizhuoxian,george,r,jayesh.choudhari17,connorbrem,m.pranav,aoprea,rjesup,arjun.jain,giles,adrien-dev,mozbugs.retornam,m,wdeng,manu.jain13,rrocik,shubhamjindal18,shivanker.goel,simon.lindholm10,gene.vityugov,christian.pommranz,etienne,maxgalmi,richardscollin,tim+bugzilla,jib,anuragchaudhury,do6kai,aj,vaibhavmagarwal,beracochea,efaustbmo,lhenry,edoardo.putti,twhitema,choudharyvaibhav132,felix.janda,wrahman0,j,wickie.leejr,jaoo,mcmanus,henrik,jomy_emmanuel,bstoroz,llkats,fscholz,dbryant,martin.thomson,akrawchyk,dan.callahan,grapherd,rohan1395,hshih,george.sanchez,droniakj1,oremj,ori,sidhus11,sparky,abdullams,sgiles,sanyam.khurana01,pep,mclaypotch,contact,felash,yiren.wang,peter.elmers,cchang,rsx11m.pub,hammad13060,nchen,catalin.badea392,dthorn,mtabara,padenot,petr.sumbera,shuang,stoyan,ahillier,grey,d_king,justdave,lorenzo,jens.b,leaf,rganesan,piratepenguin,a.topal,pkst,piaip,bevan.collins,cnst+bmo,sunil,amotohiko_mozillafirebird,andrzejk,briks.si,charles.fenwick,u115577,uriber,bugs.caleb,oliver_yeoh,engel,sugar.waffle,logan+mozilla-bmo,looney.liz,mozmail,u60234,kohei.yoshino,mtschrep,amanpreet.alam,redux,petea,hubert+bmo,roula,boullet.marc,jaap,aeruder,gagiorgio,freitaka,rjonna,mimecuvalo,b_peterson,varun21,kakadu+bugzilla,adamsplugins,cfinke,jacksmernov,goodwill.mozilla.bugzilla,andrey,Jia-Qin.Shi,stanshebs,crusader,mozilla.bugs,foss,ville.pohjanheimo,dave.lin,buchner.johannes,will.guaraldi,benoit.leseul,sikon,giovanni_marquez_cs,danielle.pham,yuoo2k,kasteo,boogs,tnarik,shift.themes,savardd,jacob,moz-bugs,jlboezeman,michel.gutierrez,bruno,ncw33,wisniewskit,joe,elmar.ludwig,iorsh,longfocus,roberto.estrada,maxim,jmgregory,ami.schieber,qheaden,navinjlal,tom.gl,rockmfr,zsw007,misak.bugzilla,szo,oyljerry,davidmalaschonok,gal,mick,patilkr24,james-p,lgvalent,prasanth_b4u,extension.compatibility,m.hamdy88,chrisccoulson,fligtar+bugs,hussain237,trl,vtanase.bugzilla,anders,danjm.com,jagw40k,piers,owenccarpenter,cfree731,hessamms,joejoevictor,saylesd1,stransky,maxli,aadib,artpar,mhanson,dev.akhawe+mozilla,srishsensation,atte.kemppila,denis.rotnov,me+bugzilla,nancibonfim,lco.mozilla,ewong3,no52fear,joshua.kalpin,ian.melven,maofl,malutan.cosmin,dev.akhawe,manuela.muntean,nafissamajda,ryou,li.roy.young,hharchani,jfox.mozilla,drakain,ishikawa,dkl,emanuel.hoogeveen,tyler.colgan,malinthak2,ytxmoz,jed+bmo,bhagya.ravikumar,andreaio.it,jessieh,cweiner,shubhamsomani92,till,jgruen,tiziana.sel,jthomas,srivatsav1998,kamiljoz,ryan,marc,support,deepakkoli93,nalexander,cheekujodhpur,rejah.rehim,c,akligman,aidin,jesper,furgerfabian,prathikcoding167,agibson,curtis.koenig+bz,ruil2,maurya1985,teodora.vermesan,rpappalardo,nate,piyush_soni,hoosteeno,psackl,kthiessen,oliver.henshaw,emilyrcreager,gk,cku,awagner,jlaz,calixte.denizet,lsalzman,quicksaver,rwood,rthijssen,jh+bugzilla,khaledhosny,Nomis101,jinank94,o.e.ekker,paul.bignier,schmittw,adi.srivastava,dumpty.driller,drno,amiyaguchi,mlongaray,junderx,agashlin,herrickz,xfergusi,jcameron97,gmierz2,ryan.b.riley,eglassercamp,jomer14,btseng,reeves_28,ddac123,mozillabugz,ul.mcamafia,jfcst24,geuis.teses,tiger.zhang,olege,paul.silaghi,webservice,basic,grddev,alexhenrie24,cyberscorpio,a9016009,gabrielfrancosouza,iseki.m.aa,pollti}
+
+
+@data
+'Bookmarks & History',normal,P3,All,mats
+'Bookmarks & History',normal,P3,'Windows 2000',p_ch
+'Bookmarks & History',normal,P2,All,jminta
+'Bookmarks & History',normal,P3,All,p_ch
+'Build Config',trivial,P3,All,bugs
+Menus,normal,P3,'Windows 2000',p_ch
+'Toolbars and Customization',trivial,P3,'Windows XP',hyatt
+Menus,minor,P3,All,bugzilla
+General,minor,P3,Linux,bugzilla
+General,minor,P3,All,bugzilla
+General,critical,P3,All,mconnor
+'Location Bar',critical,P3,All,masayuki
+'Location Bar',critical,P3,Linux,bryner
+'Toolbars and Customization',normal,P3,'Mac OS X',bugs
+Preferences,normal,P3,All,mconnor
+General,normal,P3,'Windows 2000',bugzilla
+General,trivial,P3,'Windows XP',bugzilla
+'Toolbars and Customization',normal,P2,'Mac OS X',asaf
+'Location Bar',major,P3,All,bugs
+'Keyboard Navigation',normal,P3,'Windows XP',aaronlev
+General,normal,P1,'Mac OS X',asaf
+'Bookmarks & History',normal,P3,'Windows XP',p_ch
+Installer,normal,P3,'Windows XP',benjamin
+Installer,blocker,P3,'Windows 2000',benjamin
+'Keyboard Navigation',normal,P1,All,dao+bmo
+'Bookmarks & History',major,P1,All,vladimir+bm
+'Shell Integration',normal,P3,'Windows 2000',bugs
+'Location Bar',major,P3,All,philringnalda
+'Build Config',normal,P1,'Mac OS X',benjamin
+'Bookmarks & History',normal,P3,'Windows XP',vladimir
+General,critical,P3,All,bugzilla
+General,blocker,P3,'Mac OS X',chase
+'Bookmarks & History',minor,P3,'Windows XP',amotohiko_mozillafirebird
+Search,minor,P3,'Windows XP',torisugari
+Preferences,critical,P3,Linux,g.maone
+'Location Bar',minor,P3,All,zeniko
+'Tabbed Browser',minor,P3,'Windows XP',moco
+'Keyboard Navigation',normal,P3,Linux,enndeakin
+Installer,major,P3,'Windows XP',gavin.sharp
+'Bookmarks & History',normal,P2,'Windows XP',brettw
+'Disability Access',normal,P3,Linux,twanno
+'Bookmarks & History',normal,P3,All,mak77
+'Extension Compatibility',normal,P3,'Windows XP',redux
+'Extension Compatibility',normal,P3,'Windows XP',basic
+'Location Bar',normal,P3,All,grddev
+'Disability Access',critical,P3,Linux,aaronlev
+'RSS Discovery and Preview',normal,P3,All,philringnalda
+'Session Restore',normal,P3,All,zeniko
+'Bookmarks & History',major,P3,All,aaronlev
+Theme,normal,P3,All,dao+bmo
+'Extension Compatibility',normal,P3,All,longfocus
+Theme,trivial,P3,'Mac OS X',mstange
+'Bookmarks & History',normal,P2,All,asaf
+'Bookmarks & History',normal,P3,'Windows XP',graeme.mccutcheon
+'Bookmarks & History',major,P3,All,mak77
+'Location Bar',normal,P2,All,edilee
+'Bookmarks & History',normal,P3,All,dietrich
+'Bookmarks & History',normal,P3,All,scwwu
+'Tabbed Browser',normal,P3,All,asaf
+General,normal,P3,All,dao+bmo
+General,normal,P3,'Windows XP',sdwilsh
+'Bookmarks & History',normal,P1,All,dietrich
+'Build Config',major,P3,AIX,shailen.n.jain
+'Bookmarks & History',normal,P3,All,mak77
+General,normal,P2,All,dao+bmo
+'Tabbed Browser',normal,P3,'Mac OS X',fryn
+'Tabbed Browser',minor,P3,All,kmaglione+bmo
+'Session Restore',normal,P3,All,dao+bmo
+'Private Browsing',normal,P3,All,ehsan
+Preferences,normal,P2,'Mac OS X',smichaud
+'Session Restore',normal,P3,All,ehsan
+Installer,major,P2,'Windows 7',jmathies
+'Session Restore',normal,P3,All,mak77
+Theme,trivial,P3,Linux,dao+bmo
+Theme,normal,P3,'Windows 7',dao+bmo
+Security,major,P3,All,alice0775
+'Tabbed Browser',normal,P3,All,ttaubert
+'Bookmarks & History',critical,P3,All,mak77
+'Tabbed Browser',normal,P3,All,dao+bmo
+'Developer Tools: Console',normal,P3,All,mihai.sucan
+'Developer Tools',normal,P3,Linux,mihai.sucan
+Theme,normal,P3,Linux,dao+bmo
+General,normal,P3,All,alice0775
+'Developer Tools',normal,P1,All,mihai.sucan
+'File Handling',normal,P3,Linux,alexhenrie24
+General,normal,P2,All,jmathies
+'Developer Tools: Inspector',normal,P3,'Windows 7',vporof
+'Extension Compatibility',normal,P3,Linux,cyberscorpio
+'Build Config',normal,P3,All,bhearsum
+'Developer Tools: Source Editor',normal,P3,'Windows 7',anton
+'PDF Viewer',normal,P1,All,ydelendik
+General,major,P3,All,justin.lebar+bug
+'Developer Tools: Scratchpad',normal,P3,All,anton
+Search,normal,P3,All,a9016009
+'Developer Tools: Console',normal,P3,'Mac OS X',mihai.sucan
+'Developer Tools: Inspector',normal,P3,All,mratcliffe
+General,normal,P3,'Windows XP',adw
+'Session Restore',normal,P3,All,ttaubert
+'Private Browsing',normal,P3,'Mac OS X',ehsan
+'Private Browsing',normal,P3,'Mac OS X',josh
+'Private Browsing',normal,P3,'Windows 7',josh
+'Developer Tools',normal,P3,'Windows 7',scrapmachines
+'Tabbed Browser',normal,P3,'Mac OS X',gijskruitbosch+bugs
+'Developer Tools: Debugger',normal,P3,'Mac OS X',vporof
+'Toolbars and Customization',normal,P3,All,mdeboer
+'Developer Tools: Console',normal,P3,'Windows 8',mihai.sucan
+'Toolbars and Customization',normal,P3,'Windows 7',gijskruitbosch+bugs
+Preferences,normal,P3,All,mrbkap
+Preferences,normal,P3,Linux,ehsan
+'Developer Tools: Debugger',normal,P2,'Windows 7',past
+'Developer Tools: WebIDE',normal,P1,'Mac OS X',poirot.alex
+'Developer Tools: Graphic Commandline and Toolbar',normal,P3,All,gabrielfrancosouza
+General,normal,P2,'Windows 8.1',msamuel
+'Developer Tools: WebIDE',normal,P1,All,iseki.m.aa
+'Toolbars and Customization',normal,P3,'Mac OS X',mconley
+'Developer Tools: Debugger',normal,P3,All,mihai.sucan
+'Toolbars and Customization',normal,P3,'Windows 8.1',gijskruitbosch+bugs
+'Toolbars and Customization',normal,P3,All,gijskruitbosch+bugs
+'New Tab Page',normal,P1,All,evilpies
+'Developer Tools: Netmonitor',normal,P3,'Mac OS X',vporof
+General,normal,P3,All,linpyong
+'Toolbars and Customization',normal,P3,'Windows 7',gijskruitbosch+bugs
+'Tabbed Browser',normal,P3,All,mconley
+'Toolbars and Customization',normal,P3,All,jaws
+Sync,normal,P3,All,gavin.sharp
+Sync,normal,P1,'Mac OS X',markh
+'Bookmarks & History',normal,P3,'Windows 8',gijskruitbosch+bugs
+Theme,normal,P3,All,jaws
+'Toolbars and Customization',normal,P3,Linux,gijskruitbosch+bugs
+'Developer Tools: Debugger',normal,P3,'Mac OS X',jjurovych
+'Toolbars and Customization',normal,P3,'Windows 8.1',gijskruitbosch+bugs
+'Toolbars and Customization',trivial,P3,All,mdeboer
+Theme,normal,P3,All,mixedpuppy
+'Developer Tools',normal,P3,All,past
+'Developer Tools: Debugger',normal,P3,Linux,jlong
+Preferences,normal,P3,Linux,richard.marti
+'Developer Tools: Inspector',normal,P3,All,sjakthol
+'Developer Tools: Console',normal,P3,Linux,gbrown
+'Extension Compatibility',normal,P3,All,mconley
+'Developer Tools: Inspector',normal,P3,All,ttromey
+'Session Restore',critical,P3,'Windows 7',mconley
+'Tabbed Browser',normal,P3,Linux,dtownsend
+'Developer Tools: WebIDE',normal,P3,Linux,jmaher
+General,normal,P3,All,mconley
+'Device Permissions',normal,P3,All,florian
+'Session Restore',normal,P3,Linux,mdeboer
+Preferences,normal,P1,'Mac OS X',jaws
+General,normal,P3,All,mconley
+'Developer Tools: WebIDE',normal,P3,Linux,jryans
+Preferences,normal,P3,'Windows 8.1',gijskruitbosch+bugs
+General,normal,P3,'Mac OS X',enndeakin
+Preferences,normal,P3,All,gioyik
+'Developer Tools: Style Editor',normal,P3,All,sjakthol
+'Developer Tools: Netmonitor',normal,P3,All,past
+'Developer Tools: Debugger',normal,P3,'Windows 8',matt.woodrow
+Security,normal,P3,'Windows 10',pollti
+General,normal,P5,Linux,mrbkap
+'Developer Tools: Console',normal,P3,All,nchevobbe
+General,major,P2,'Windows 10',gijskruitbosch+bugs
+Menus,normal,P3,All,michael
+'Extension Compatibility',normal,P3,All,bobbyholley
+'Developer Tools: Inspector',normal,P3,All,jryans
+Search,normal,P3,All,mak77
+'Bookmarks & History',normal,P3,All,ayx002
+'Developer Tools: Inspector',normal,P2,All,moz-ian
+'Toolbars and Customization',normal,P3,'Mac OS X',gijskruitbosch+bugs
+'Location Bar',normal,P1,Linux,mak77
+General,normal,P3,'Windows 10',kbroida
+Untriaged,critical,P3,All,erahm
+'Developer Tools: CSS Rules Inspector',normal,P3,All,3ugzilla
+Sync,normal,P1,All,tchiovoloni
